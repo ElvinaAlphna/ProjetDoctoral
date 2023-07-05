@@ -13,10 +13,12 @@ from PIL import Image
 import os
 
 # Définir le chemin du dossier vers les images à traiter
-chemin_vers_images = "C:/Users/Alphna Kemoe/Desktop/segmantation_semantique/Annotations/Input/Image_1"
+#chemin_vers_images = "C:/Users/Alphna Kemoe/Desktop/segmantation_semantique/Annotations/Input/Image_1"
+chemin_vers_images = "/content/data/images"
 
 # Définir le chemin du dossier vers les patchs (imagettes)
-chemin_dossier_patches = "C:/Users/Alphna Kemoe/Desktop/segmantation_semantique/Annotations/Patch"
+#chemin_dossier_patches = "C:/Users/Alphna Kemoe/Desktop/segmantation_semantique/Annotations/Patch"
+chemin_dossier_patches = "/content/data/patches"
 
 # Dossier des images reconstituées
 chemin_dossier_fusionne = "C:/Users/Alphna Kemoe/Desktop/segmantation_semantique/Annotations/Output"
